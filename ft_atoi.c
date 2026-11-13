@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 15:32:14 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/07 14:28:31 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 14:06:13 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,4 +43,4 @@ int main(int ac, char **av)
 		printf("ft_atoi: %d\n", ft_atoi(av[i++]));
 	return (0);
 }
-*/	
+*/

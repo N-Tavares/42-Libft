@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 11:57:44 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/05 12:37:01 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 21:43:01 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,16 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (count);
 }
+/*
+int main(void)
+{
+	t_list *head = NULL;
+	ft_lstadd_front(&head, ft_lstnew("World"));
+	ft_lstadd_front(&head, ft_lstnew("Hello"));
+
+	int size = ft_lstsize(head);
+	printf("%d\n", size);
+
+	return (0);	
+}
+*/

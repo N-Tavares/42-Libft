@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 21:31:28 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/05 12:37:58 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 17:58:14 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,17 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+/*
+void test_f(unsigned int i, char *c)
+{
+		*c += i;
+}
+int main(void)
+{
+	char str[] = "abc";
+	ft_striteri(str, test_f);
+	printf("%s\n",str);
+
+	return (0);
+}
+*/

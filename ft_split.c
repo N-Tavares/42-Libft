@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/31 15:45:53 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/07 17:29:59 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 16:06:23 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,11 +87,19 @@ char	**ft_split(char const *s, char c)
 	words[i] = NULL;
 	return (words);
 }
-
+/*
 int main(void)
 {
-	char str[] = "HEllo+World=!";
-	char **rest;
-
-	res = ft_split(str, '+');
+	char str[] = "HEllo,World,!";
+	char c = ',';
+	char **words;
+	int i;
+	
+	words = ft_split(str, c);
+	i=0;
+	while(words[i])
+		printf("%s\n", words[i++]);
+	
+	return (0);
 }
+*/

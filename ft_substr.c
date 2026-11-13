@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 16:36:19 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/01 12:54:40 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 14:24:02 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,20 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (!str)
 		return (NULL);
-	ft_memcpy(str, s + start, len);
+	ft_strlcpy(str, s + start, len + 1);
 	str[len] = '\0';
 	return (str);
 }
+/*
+int main(void)
+{
+	char const	str[9] = "Nunda-si";
+	char *substr;
+	substr = ft_substr(str, 3, 15);
+
+	printf("%s\n", substr);
+	
+	free(substr);
+	return (0);
+}
+*/

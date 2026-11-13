@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 19:04:17 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/10/30 14:54:47 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/08 17:24:12 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,15 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		return (0);
 	return (((unsigned char)s1[i]) - ((unsigned char)s2[i]));
 }
+/*
+int main(void)
+{
+	char *s1 = "Hello";
+	char *s2 = "Hey";
+	size_t n = 3;
+
+	printf("%d\n", ft_strncmp(s1, s2, n));
+ 
+	return (0);
+}
+*/

@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 17:36:03 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/07 16:56:00 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/08 16:12:00 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,15 +19,15 @@ int	ft_isalnum(int c)
 /*
 int main(void)
 {
-	int x1 = 'A';
-	int x2 = 'Z';
-	int x3 = '1';
-	int x4 = '#';
+	int c1 = 'A';
+	int c2 = 'Z';
+	int c3 = '1';
+	int c4 = '#';
 	
-	printf("%c: %d\n", x1, ft_isalnum(x1));
-	printf("%c: %d\n", x2, ft_isalnum(x2));
-	printf("%c: %d\n", x3, ft_isalnum(x3));
-	printf("%c: %d\n", x4, ft_isalnum(x4));
+	printf("%c: %d\n", c1, ft_isalnum(c1));
+	printf("%c: %d\n", c2, ft_isalnum(c2));
+	printf("%c: %d\n", c3, ft_isalnum(c3));
+	printf("%c: %d\n", c4, ft_isalnum(c4));
 	
 	return (0);
 }

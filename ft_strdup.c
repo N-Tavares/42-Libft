@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 09:00:24 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/10/30 09:09:11 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/10 21:37:07 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,16 @@ char	*ft_strdup(const char *s)
 	copy[i] = '\0';
 	return (copy);
 }
+/*
+int main(void)
+{
+	char *str;
+	str = "Hello World!";
+
+	if(str)
+		printf("%s\n", ft_strdup(str));
+	else
+	 	printf("NULL");
+	return (0);
+}
+*/

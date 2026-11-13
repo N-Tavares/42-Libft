@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 18:29:48 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/10/31 17:55:07 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/08 17:13:19 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,14 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *) s);
 	return (NULL);
 }
+/*
+int main(void)
+{
+	char	s[] = "Hello World!";
+	int		c = 'o';
+	
+	printf("%s\n", ft_strchr(s, c));
+	
+	return (0);
+}
+*/

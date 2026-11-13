@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 18:12:02 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/05 21:35:08 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/08 17:41:10 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,15 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (ft_strlen(src));
 }
+/*
+int main(void)
+{
+	char dst[2];
+	char *src = "Hello";
+
+	size_t len = ft_strlcpy(dst, src, sizeof(dst));
+	printf("%ld\n", len);
+
+	return (0);
+}
+*/

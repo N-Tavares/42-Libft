@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 09:48:49 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/05 21:35:55 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 10:36:13 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,14 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		*d++ = *s++;
 	return (dest);
 }
+/*
+int main(void)
+{
+	char dest[9];
+	char src[] = "Nunda-si";
+
+	printf("%s\n", (char *)ft_memcpy(dest, src, 9));
+
+	return (0);
+}
+*/

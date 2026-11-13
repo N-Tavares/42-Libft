@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 21:24:42 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/07 17:19:40 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 17:02:56 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ char	*ft_itoa(int n)
 	char	*str;
 
 	nb = n;
-	len = count_digits(nb);
+	len = count_digits(n);
 	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (!str)
 		return (NULL);

@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 11:33:09 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/05 12:38:37 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 18:36:23 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,18 @@ t_list	*ft_lstnew(void *content)
 	node->next = NULL;
 	return (node);
 }
+/*
+int main(void)
+{
+	char *str = "Hello";
+	t_list *node;
+
+	node = ft_lstnew(str);
+	if (!node)
+		return (0);
+	
+	printf("%s\n", (char *)node->content);
+	free (node);
+	return (0);	
+}
+*/

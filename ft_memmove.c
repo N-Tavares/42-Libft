@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 10:02:49 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/05 21:36:22 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 11:40:04 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,13 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 			*d++ = *s++;
 	return (dest);
 }
+/*
+int main(void)
+{
+	char dest[5];
+	char src[9] = "Nunda-si";
+
+	ft_memmove(dest, src, 6);
+	printf("%s\n", dest);
+}
+*/

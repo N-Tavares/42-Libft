@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 21:36:27 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/05 12:38:18 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 18:07:44 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,10 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
+/*
+int main(void)
+{
+	ft_putchar_fd('a', 1);
+	ft_putchar_fd('\n', 1);
+}
+*/

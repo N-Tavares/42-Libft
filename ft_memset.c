@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 09:11:22 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/06 15:24:08 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/10 21:58:49 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,18 @@ void	*ft_memset(void *s, int c, size_t n)
 	unsigned char	*ptr;
 
 	ptr = s;
-	while (n > 0)
-	{
+	while (n--)
 		*ptr++ = (unsigned char)c;
-		n--;
-	}
 	return (s);
 }
+/*
+int main(void)
+{
+	char str[] = "Nunda-si";
+
+	printf("%s\n", str);
+	printf("%s\n", (char *)ft_memset(str, 'x', 8));
+
+	return (0);
+}
+*/

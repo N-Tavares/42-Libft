@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/31 14:58:23 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/10/31 15:38:59 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 15:51:19 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,14 @@ char	*ft_strtrim(char const *s1, char const *set)
 		end--;
 	return (ft_substr(s1, start, end - start));
 }
+/*
+int main(void)
+{
+	char s1[] = "xxHelloxx";
+	char set[] = "xx";
+
+	printf("%s\n", ft_strtrim(s1, set));
+	
+	return (0);
+}
+*/

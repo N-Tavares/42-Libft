@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 14:14:54 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/10/30 14:39:51 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/11 11:53:53 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,18 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+/*
+int main(void)
+{
+	char	s[] = "Hello!";
+	int		c = 'l';
+	char	*res;
+	res = ft_memchr(s, c, 3);
+
+	if(res)
+		printf("%s\n", res);
+	else
+	 	printf("NULL\n");
+	return (0);
+}
+*/
