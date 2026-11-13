@@ -6,19 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 15:32:14 by nunda-si          #+#    #+#             */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/*   Updated: 2026/11/13 16:27:31 by nunda-si         ###   ########.fr       */
-=======
-/*   Updated: 2026/11/11 14:06:13 by nunda-si         ###   ########.fr       */
->>>>>>> 6f8ba36 (Libft done)
-=======
-/*   Updated: 2026/11/13 18:30:33 by nunda-si         ###   ########.fr       */
->>>>>>> b3c046b (HaRITCOOT OBG)
-=======
 /*   Updated: 2026/11/13 18:59:21 by nunda-si         ###   ########.fr       */
->>>>>>> c67857a (libt v1)
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,13 +14,8 @@
 
 int	ft_atoi(const char *nptr)
 {
-<<<<<<< HEAD
 	int		sign;
 	long	res;
-=======
-	int	sign;
-	int	res;
->>>>>>> 6f8ba36 (Libft done)
 
 	sign = 1;
 	res = 0;

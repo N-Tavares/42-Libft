@@ -6,11 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 19:04:17 by nunda-si          #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2026/11/13 16:26:43 by nunda-si         ###   ########.fr       */
-=======
-/*   Updated: 2026/11/08 17:24:12 by nunda-si         ###   ########.fr       */
->>>>>>> 6f8ba36 (Libft done)
+/*   Updated: 2026/11/13 19:06:28 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +17,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	size_t	i;
 
 	i = 0;
-<<<<<<< HEAD
 	while (i < n && s1[i] && s2[i] && s1[i] == s2[i])
-=======
-	while (s1[i] && s2[i] && s1[i] == s2[i] && i < n)
->>>>>>> 6f8ba36 (Libft done)
 		i++;
 	if (i == n)
 		return (0);
