@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 15:32:14 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/11 14:06:13 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/13 16:27:31 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	ft_atoi(const char *nptr)
 {
-	int	sign;
-	int	res;
+	int		sign;
+	long	res;
 
 	sign = 1;
 	res = 0;
