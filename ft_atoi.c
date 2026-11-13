@@ -6,7 +6,11 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 15:32:14 by nunda-si          #+#    #+#             */
+<<<<<<< HEAD
 /*   Updated: 2026/11/13 16:27:31 by nunda-si         ###   ########.fr       */
+=======
+/*   Updated: 2026/11/11 14:06:13 by nunda-si         ###   ########.fr       */
+>>>>>>> 6f8ba36 (Libft done)
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +18,13 @@
 
 int	ft_atoi(const char *nptr)
 {
+<<<<<<< HEAD
 	int		sign;
 	long	res;
+=======
+	int	sign;
+	int	res;
+>>>>>>> 6f8ba36 (Libft done)
 
 	sign = 1;
 	res = 0;
