@@ -6,16 +6,12 @@
 
 It reimplements standard libc functions (same prototypes and behaviour, prefixed with `ft_`), adds extra utilities for strings and file descriptors, and provides a small toolkit to manipulate singly linked lists.
 
----
-
 **Goals**
 
 - Learn how the standard C functions work.
 - Practice pointers, dynamic memory allocation and memory-leak-free code.
 - Follow the 42 Norm and compile cleanly with `-Wall -Wextra -Werror`.
 - Build a library to reuse in later projects.
-
----
 
 ## Library Structure
 
@@ -154,8 +150,6 @@ void ft_lstiter(t_list *lst, void (*f)(void *));
 t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 ```
 
----
-
 ## How Lists Work in Memory
 
 Each node is allocated separately on the heap, and the content is allocated separately from the node:
@@ -184,8 +178,6 @@ Compiled with `cc -Wall -Wextra -Werror` and archived with `ar`. To use the libr
 ```sh
 cc main.c -L. -lft -o program
 ```
-
----
 
 ## Resources
 
