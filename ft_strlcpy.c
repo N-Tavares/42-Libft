@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 18:12:02 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/13 17:56:13 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/15 17:44:57 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 int main(void)
 {
 	char dst[2];
-	char *src = "Hello";
+	char *src = "Hello!";
 
 	size_t len = ft_strlcpy(dst, src, sizeof(dst));
 	printf("%ld\n", len);

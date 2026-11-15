@@ -6,7 +6,7 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 10:02:49 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/13 18:01:52 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/13 09:41:36 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ int main(void)
 	char dest[5];
 	char src[9] = "Nunda-si";
 
-	ft_memmove(dest, src, 6);
+	ft_memmove(dest, src, 8);
 	printf("%s\n", dest);
 }
 */
