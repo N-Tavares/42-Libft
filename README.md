@@ -192,3 +192,9 @@ AI was used as a learning aid, acting as a C programming teacher:
 
 - To help me understand how the functions work.
 - To help debug some functions.
+
+**Used Tests**
+- Francinette: https://github.com/xicodomingues/francinette
+- libft-war-machine: https://github.com/0x050f/libft-war-machine
+- libftTester: https://github.com/Tripouille/libftTester
+- libft_file_checker: https://github.com/Nuno-Jesus/libft_file_checker
