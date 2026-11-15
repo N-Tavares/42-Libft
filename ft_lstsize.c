@@ -6,13 +6,13 @@
 /*   By: nunda-si <nunda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 11:57:44 by nunda-si          #+#    #+#             */
-/*   Updated: 2026/11/15 17:44:48 by nunda-si         ###   ########.fr       */
+/*   Updated: 2026/11/13 17:22:48 by nunda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_lstsize(t_list *lst)
+unsigned int	ft_lstsize(t_list *lst)
 {
 	int	count;
 
@@ -28,7 +28,7 @@ int	ft_lstsize(t_list *lst)
 int main(void)
 {
 	t_list *head = NULL;
-	ft_lstadd_front(&head, ft_lstnew("World!"));
+	ft_lstadd_front(&head, ft_lstnew("World"));
 	ft_lstadd_front(&head, ft_lstnew("Hello"));
 
 	int size = ft_lstsize(head);
